@@ -1,0 +1,33 @@
+GitHub
+First create new repositary on Github website with readme folder
+
+Go to Git Hub bash command line
+
+dir
+cd d:\workingfolderwithprogram
+git clone (repositary on Github web address)
+
+create a new file and add it to the d:\workingfolderwithprogram
+
+cd video_tutorial\git status
+(Red means not added to Github repositary
+git add (file name)
+(the file color goes green
+
+git commit -m "Program file created and is doing xxxx"
+
+git push 
+
+Now other user want to make the changes to same Git hub repositary
+
+git pull (all the latest changes are pulled from repositary )
+
+Now other use made changes to the file that was pulled.
+
+git status
+
+git add -A (all files will added)
+
+git commit -m "comment here"
+
+git push
